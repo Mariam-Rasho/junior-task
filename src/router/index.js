@@ -2,8 +2,6 @@ import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router
 
 const routes = [{
   history: createWebHashHistory(),
-  mode: HashChangeEvent,
-  path: '/',
   component: () =>
     import ('@/layouts/default.vue'),
   children: [{
