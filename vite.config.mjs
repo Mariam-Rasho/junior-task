@@ -14,7 +14,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'https://Mariam-Rasho/github.io/junior-task',
+  base: '/junior-task/',
   plugins: [
     VueRouter(),
     Layouts(),
