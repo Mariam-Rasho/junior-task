@@ -4,6 +4,7 @@ const routes = [{
   history: createWebHashHistory(),
   component: () =>
     import ('@/layouts/default.vue'),
+  path: '/',
   children: [{
     path: '/',
     name: 'Home',
