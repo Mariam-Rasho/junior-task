@@ -13,12 +13,3 @@
   </body>
 </html>
 
-<script>
-  const path = window.location.pathname;
-  if (path !== '/' && !path.endsWith('.html')) {
-    window.history.replaceState({}, '', '/#' + path);
-  }
-  window.location.href = '/'; 
-  console.log("wejwhqeuqw");
-  
-</script>
