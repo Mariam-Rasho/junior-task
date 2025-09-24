@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [{
+  mode: 'hash',
   path: '/',
   component: () =>
     import ('@/layouts/default.vue'),
