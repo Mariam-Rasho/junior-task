@@ -50,9 +50,6 @@
     setTimeout(() => {
       const path = router.currentRoute.value.fullPath
 
-      console.log('router.currentRoute.value.full', router.currentRoute.value)
-      console.log('router.currentRoute.value', router.currentRoute.value)
-
       if (path === '/report') setActive('Report')
       else setActive('Home')
     }, 500)
