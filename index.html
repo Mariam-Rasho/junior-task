@@ -12,3 +12,11 @@
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
+
+<script>
+  const path = window.location.pathname;
+  if (path !== '/' && !path.endsWith('.html')) {
+    window.history.replaceState({}, '', '/#' + path);
+  }
+  window.location.href = '/'; 
+</script>
